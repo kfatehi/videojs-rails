@@ -1,13 +1,14 @@
 /*
  * Video-js
- * 
- *= require video-js
  *
  * Some changements of style
  * by Semio Design
  *
  * All styles are maked as !important
  * to override default styles of .vjs
+ *
+ *= require video-js
+ *= require_self
  *
  */
 .vjs-default-skin {
