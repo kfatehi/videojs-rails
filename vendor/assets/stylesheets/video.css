@@ -1,0 +1,28 @@
+/*
+ * Video-js
+ * 
+ *= require video-js
+ *
+ * Some changements of style
+ * by Semio Design
+ *
+ * All styles are maked as !important
+ * to override default styles of .vjs
+ *
+ */
+.vjs-default-skin {
+    margin-bottom: 10px;
+}
+.vjs-default-skin .vjs-big-play-button {
+    background: none !important;
+    border:     none !important;
+    box-shadow: none !important;
+    filter:     none !important;
+}
+.vjs-default-skin .vjs-big-play-button span {
+    background: url(video-js/play.png) center center no-repeat !important;
+    height:     114px !important;
+    left:       0 !important;
+    top:        0 !important;
+    width:      103px !important;
+}
