@@ -1,14 +1,14 @@
 <!-- Begin VideoJS -->
 <video id="<%= @options[:id] unless @options.nil? %>"
        class="video-js vjs-default-skin <%= @options[:classes] %>"
-       poster="/assets/<%= @options[:poster] unless @options.nil? %>"
+       poster="<%= @options[:poster] unless @options.nil? %>"
        controls
        width="<%= @options[:width] unless @options.nil? %>"
        height="<%= @options[:height] unless @options.nil? %>"
        preload="auto"
        data-setup="{}">
-       <source src="/assets/<%= @sources[:mp4] %>"  type='video/mp4' />
-       <source src="/assets/<%= @sources[:webm] %>" type='video/webm; codecs="vp8, vorbis"' />
-       <source src="/assets/<%= @sources[:ogv] %>"  type='video/ogg; codecs="theora, vorbis"' />
+       <source src="<%= @sources[:mp4] %>"  type='video/mp4' />
+       <source src="<%= @sources[:webm] %>" type='video/webm; codecs="vp8, vorbis"' />
+       <source src="<%= @sources[:ogv] %>"  type='video/ogg; codecs="theora, vorbis"' />
 </video>
 <!-- End VideoJS -->
