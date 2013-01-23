@@ -7,8 +7,8 @@
        height="<%= @options[:height] unless @options.nil? %>"
        preload="auto"
        data-setup="{}">
-       <source src="<%= @sources[:mp4] %>"  type='video/mp4' />
-       <source src="<%= @sources[:webm] %>" type='video/webm; codecs="vp8, vorbis"' />
-       <source src="<%= @sources[:ogv] %>"  type='video/ogg; codecs="theora, vorbis"' />
+       <source src="<%= root_url.sub(/(\/)+$/,'') + @sources[:mp4] %>"  type='video/mp4' />
+       <source src="<%= root_url.sub(/(\/)+$/,'') + @sources[:webm] %>" type='video/webm; codecs="vp8, vorbis"' />
+       <source src="<%= root_url.sub(/(\/)+$/,'') + @sources[:ogv] %>"  type='video/ogg; codecs="theora, vorbis"' />
 </video>
 <!-- End VideoJS -->
