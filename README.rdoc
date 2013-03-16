@@ -1,3 +1,7 @@
 = RailsVideojs
 
 This project rocks and uses MIT-LICENSE.
+
+Maybe look at this one too https://github.com/RobWu/videojs-rails
+
+There are many videojs repos out there, this is one I have forked; I'll try to make it fully functional...
